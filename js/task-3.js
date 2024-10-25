@@ -3,7 +3,7 @@ const profile = {
     playTime: 300,
 
     getInfo() {
-        console.log(`${profile.username} has ${profile.playTime} active hours!`);
+        return `${profile.username} has ${profile.playTime} active hours!`;
     },
 
     changeUsername(newName){
